@@ -6,7 +6,7 @@ Build on top of React Native's Image component, with the same API and props.
 
 Highly customizable.
 
-The component is intended to be easy to use, provide good user experience to you users by displaying network images with loading indicator and fade in animation, and handle errors by displaying a placeholder.
+The component is intended to be easy to use. Provide good user experience while displaying network images by taking care of all possible states: loading, error, and success.
 
 ## Installation
 
@@ -15,6 +15,8 @@ npm install react-native-loading-fadein-animated-image
 ```
 
 ## Usage
+
+![](./images/demo-1.gif)
 
 Import the LoadingFadeInImage component, which supports all the props of the Image component from react-native.
 
@@ -44,8 +46,6 @@ const styles = StyleSheet.create({
   },
 });
 ```
-
-![](./images/demo-1.gif)
 
 ## Customization
 
