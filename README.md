@@ -6,6 +6,8 @@ Build on top of React Native's Image component, with the same API and props.
 
 Highly customizable.
 
+The component is intended to be easy to use, provide good user experience to you users by displaying network images with loading indicator and fade in animation, and handle errors by displaying a placeholder.
+
 ## Installation
 
 ```sh
